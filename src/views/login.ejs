@@ -1,0 +1,17 @@
+<%-include( "partials/header" )%>
+
+    <div class="container py-5 d-flex  text-center flex-column justify-content-center w-100" style="margin-top:10%">
+        <h1>Login</h1>
+        <form action="/user/login" method="POST">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required><br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br><br>
+            <input type="submit" class="btn btn-secondary" value="Login">
+            <a href="/user/register" class="btn btn-secondary">Register</a>
+        </form>
+
+
+        </body>
+
+        </html>
